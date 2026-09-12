@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bendy and the Ink Machine</title>
     
-    <!-- Verknüpfung zur Web App Manifest-Datei -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1a1a1a">
 
@@ -63,10 +62,15 @@
     </div>
 
     <script>
-        // Registriert den Service Worker, damit Chrome die Seite als installierbare App erkennt
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js');
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('./sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful');
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
         }
     </script>
 </body>
-</html>
+</html></html>
