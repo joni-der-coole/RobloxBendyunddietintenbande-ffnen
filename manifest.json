@@ -1,8 +1,8 @@
 {
   "name": "Bendy and the Ink Machine",
   "short_name": "Bendy Roblox",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/RobloxBendyunddietintenbande-ffnen/index.html",
+  "scope": "/RobloxBendyunddietintenbande-ffnen/",
   "display": "standalone",
   "background_color": "#1a1a1a",
   "theme_color": "#1a1a1a",
