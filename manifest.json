@@ -1,0 +1,16 @@
+{
+  "name": "Bendy and the Ink Machine",
+  "short_name": "Bendy Roblox",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "https://tr.rbxcdn.com/180DAY/7e155c2763f0bb4595e865f3f2d24497/150/150/Image/Png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ]
+}
